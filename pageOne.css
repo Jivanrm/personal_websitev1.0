@@ -314,6 +314,7 @@ header nav ul li a.active {
 }
 
 .project-card {
+    height: 410px;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -327,8 +328,8 @@ header nav ul li a.active {
 }
 
 .project-image img {
-    height: 300px;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     border-radius: 10px;
     
 }
